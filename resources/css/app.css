@@ -1,13 +1,12 @@
 @import 'tailwindcss';
 @import '../../vendor/livewire/flux/dist/flux.css';
-
 @source '../views';
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../vendor/livewire/flux-pro/stubs/**/*.blade.php';
 @source '../../vendor/livewire/flux/stubs/**/*.blade.php';
 
 @custom-variant dark (&:where(.dark, .dark *));
-
+@import 'leaflet/dist/leaflet.css';
 @theme {
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
@@ -64,3 +63,117 @@ select:focus[data-flux-control] {
 /* \[:where(&)\]:size-4 {
     @apply size-4;
 } */
+.underline-animation {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.underline-animation::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #29d920;
+    transition: width 0.3s ease-in-out;
+}
+h1{
+    font-size: 46px;
+}
+
+h2{
+    font-size: 22px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 18px;
+}
+h5{
+    font-size: 16px;
+}
+h6{
+    font-size: 14px;
+    font-weight: bolder;
+}
+p,li{
+    font-size: 15px;
+}
+p1{
+    font-size: 10px;
+}
+p2{
+    font-size: 8px;
+}
+p3{
+    font-size: 6px;
+}
+@media (min-width: 768px) {
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 18px;
+    }
+    h6{
+        font-size: 16px;
+        font-weight: bolder;
+    }
+    p,li{
+        font-size: 14px;
+    }
+    p1{
+        font-size: 12px;
+    }
+    p2{
+        font-size: 10px;
+    }
+    p3{
+        font-size: 8px;
+    }
+}
+@media (min-width: 1024px) {
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    h4{
+        font-size: 22px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    h6{
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    p,li{
+        font-size: 16px;
+    }
+    p1{
+        font-size: 14px;
+    }
+    p2{
+        font-size: 12px;
+    }
+    p3{
+        font-size: 10px;
+    }
+}
