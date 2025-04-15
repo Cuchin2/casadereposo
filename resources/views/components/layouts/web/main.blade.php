@@ -18,7 +18,8 @@
 </head>
 <style>
     body {
-        font-family: Poppins, 'Poppins Fallback';
+        /* font-family: Poppins, 'Poppins Fallback'; */
+        font-family: Montserrat, 'Montserrat Fallback' !important;
     }
 
     .montserrat {

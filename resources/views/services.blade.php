@@ -17,7 +17,7 @@
 
             </div>
             <div class="absolute top-1/2 md:top-3/5 transform -translate-y-1/2 max-w-[850px] md:px-14 px-8">
-                <div data-aos="flip-left" >
+                <div data-aos="flip-left" class="text-gray-200">
                     <h5 class="uppercase montserrat">servicios</h5>
                     <span class="uppercase md:text-[45px] text-[30px]"><span class="text-[#BEDB49] font-semibold">Asistencia 24/7 </span> - Cuidado y confort para tus seres queridos</span>
 
@@ -27,8 +27,8 @@
 
         </section>
         {{-- Banner --}}
-        <div>
-            <div class="absolute bg-[#BEDB49] text-center w-7/8 left-1/2 transform -translate-x-1/2 md:bottom-[-155px] sm:bottom-[-120px] bottom-[-130px] py-5 md:px-20 px-10
+        <div class="relative">
+            <div class="absolute bg-[#BEDB49] text-center w-7/8 left-1/2 transform -translate-x-1/2 py-5 md:px-20 px-10 bottom-[-30px]
         ">
                 <div data-aos="zoom-in">
                     <span class="md:text-[30px] text-[15px] text-gray-600 italic">El mejor ambiente de atención a personas mayores</span>
@@ -152,8 +152,8 @@
 
     <!-- Contenido -->
     <div class="bg-gray-600/50 relative z-10 h-full flex items-center justify-center text-center">
-        <div class="md:px-12 px-6 md:py-0 pt-20 pb-12 md:pb-0 ">
-        <h1 class="!font-semibold md:!text-[36px] !text-[20px] uppercase">Atendemos de lunes a domingo las 24 horas del día.</h1>
+        <div class="md:px-12 px-6 md:py-0 pt-20 pb-12 md:pb-0 text-gray-200 w-6/7">
+        <h1 class="!font-semibold md:!text-[30px] !text-[20px] uppercase">Atendemos de lunes a domingo las 24 horas del día.</h1>
         <p class="my-10 !text-[18px]">
             Brindamos un servicio de calidad y eficiencia. No dudes en ponerte en contacto con nosotros.
         </p>

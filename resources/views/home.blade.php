@@ -39,7 +39,7 @@
 
         </div>
         <div class="absolute top-1/2 md:top-3/5 transform -translate-y-1/2 max-w-[850px] md:px-14 px-8">
-            <div data-aos="flip-left" >
+            <div data-aos="flip-left" class="text-gray-200">
                 <h5 class="uppercase montserrat"><b>Villa Marina</b> | MUCHO MÁS QUE UN CENTRO GERIÁTRICO</h5>
                 <span class="uppercase md:text-[45px] text-[30px]">El mejor ambiente de atención a personas mayores</span>
                 <p class="mt-2 text-[15px]">¡Cuidamos con amor, calidad y calidez a tu ser más amado!</p>
@@ -52,9 +52,9 @@
 
     </section>
     {{-- Banner --}}
-    <div>
-        <div class="absolute bg-blue-200 text-center w-7/8 left-1/2 transform -translate-x-1/2 bottom-[-155px] py-5 md:px-20 px-10
-    ">
+    <div class="w-full absolute bottom-[-25%]">
+        <div class=" bg-blue-200 text-center w-7/8  py-5 md:px-20 px-10 mx-auto
+    " style="">
             <div data-aos="zoom-in">
                 <span class="md:text-[30px] text-[15px] text-gray-600 italic">"Al final, lo que importa no son los años
                     de vida, sino la vida de los años".</span>
@@ -63,7 +63,7 @@
         </div>
     </div>
         <!-- About Us Section -->
-        <section class="bg-white pt-30 md:px-10 px-2">
+        <section class="bg-white pt-30 md:px-40  md:pt-35 px-2">
             <div class="container mx-auto px-8 grid grid-cols-1 md:grid-cols-2 md:gap-16 gap-8 items-center">
                 <div data-aos="fade-right" class="max-w-128 max-h-128 h-full overflow-hidden">
                     <img src="{{ asset('storage/images/iStock-1637139484-1920w.webp') }}" alt="Acerca de Nosotros"
